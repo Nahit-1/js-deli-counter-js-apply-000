@@ -24,3 +24,14 @@ function takeANumber(line, name) {
   
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
+
+
+var ticketNumber = 0
+
+function ticketNumber(line) { 
+  ticketNumber++
+  line.push(ticketNumber)
+  
+  return `Welcome, you are number ${ticketNumber}.`
+  
+}
